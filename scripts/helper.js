@@ -1,8 +1,8 @@
+class Helper{
 
-  class Helper{
 playPauseAndUpdate (song) {
-  player.playPause(song);
-  const duration = player.getDuration();
+player.playPause(song);
+const duration = player.getDuration();
   $('#time-control .total-time').text( duration );
 }
 }
